@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap Case</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Crud Operation</h1>      
+      </div>
+	  	<a input type ="btn" class="btn btn-success"  href="bs.php">Add</a> 
+
+    </div>
+	
+      
+ <div class="container"><table align="center" class="table table-bordered table-stripted table-hover">
+  <tr>
+   <th>ID</th>
+   <th> Name </th>
+   <th>number</th>
+   <th> Email </th>
+   <th>Action </th>
+  </tr><tr><td class='primary'>1</td><td class='success'>muhammed</td><td class='danger'>9687777222</td><td class='warning'>muhammedshaikh9</td><td class="col-md-4"><a  href="deletephp.php?ID=1"><span class="glyphicon glyphicon-remove"></span></a> &nbsp &nbsp<a  href="update.php?ID=1"><span class="glyphicon glyphicon-pencil "></span></a></td></tr></table></div></body>
+</html>		
